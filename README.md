@@ -29,6 +29,9 @@ For Software:
 
 # Screenshots (Add at least 3)
 
+![Screenshot 2025-02-02 101011](https://github.com/user-attachments/assets/d33c9df2-22ff-4b19-8074-c33d2deb8443)
+
+
 https://raw.githubusercontent.com/alka-003/PriyamWeb/refs/heads/main/ss1.png
 
 https://raw.githubusercontent.com/alka-003/PriyamWeb/refs/heads/main/ss2.png
