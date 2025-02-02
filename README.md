@@ -33,6 +33,7 @@ For Software:
 
 
 ![Screenshot 2025-02-02 101141](https://github.com/user-attachments/assets/c541d069-2fb4-4e39-ab11-c2c8dc40c9c6)
+![Screenshot 2025-02-02 101038](https://github.com/user-attachments/assets/0c80b5e5-783c-4569-a5d9-4a89fca6b45d)
 
 
 ### Project Demo
