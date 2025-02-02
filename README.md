@@ -10,8 +10,7 @@
 - Member 2: Parvathy T Babu - College Of Engineering Munnar
 
 ### Hosted Project Link
-[https://priyam-web.vercel.app/](https://priyam-web.vercel.app/)
-
+https://calorie-tracker-dusky-nine.vercel.app/
 ### Project Description
 Introducing BiteCount,a web app that helps users track their daily calorie intake, and BMI (Body Mass Index). Users can log meals, track calorie intake, and set fitness goals. The app includes a BMI calculator to assess health status. Built with HTML, CSS, JavaScript Ideal for fitness enthusiasts and health-conscious individuals.  
 
