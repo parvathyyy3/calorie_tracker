@@ -32,13 +32,8 @@ For Software:
 ![Screenshot 2025-02-02 101011](https://github.com/user-attachments/assets/d33c9df2-22ff-4b19-8074-c33d2deb8443)
 
 
-https://raw.githubusercontent.com/alka-003/PriyamWeb/refs/heads/main/ss1.png
+![Screenshot 2025-02-02 101141](https://github.com/user-attachments/assets/c541d069-2fb4-4e39-ab11-c2c8dc40c9c6)
 
-https://raw.githubusercontent.com/alka-003/PriyamWeb/refs/heads/main/ss2.png
-
-https://raw.githubusercontent.com/alka-003/PriyamWeb/refs/heads/main/ss3.png
-
-https://raw.githubusercontent.com/alka-003/PriyamWeb/refs/heads/main/ss4.png
 
 ### Project Demo
 # Video
