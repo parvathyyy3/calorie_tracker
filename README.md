@@ -37,15 +37,14 @@ For Software:
 
 
 ### Project Demo
-# Video
-https://github.com/alka-003/PriyamWeb/blob/main/wokbiGpPLZ.mp4
+
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- Alka Martin: Reasearch and Documentation
-- Sneha Biju: Coding and Idea
+- Parvathy T Babu: Reasearch and Documentation
+- Anjana Manoj: Coding and Idea
 
 ---
 Made with ❤️ at TinkerHub
