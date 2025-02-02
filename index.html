@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1 style="color:aliceblue;">Bite Count</h1>
+            </div>
+    
+            <div class="user-section">
+                <button class="user-btn">Sign In</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 id="hh">Calorie Tracker</h1>
+        <div id="food-entry">
+            <h2>Add Food Item</h2>
+            <form id="food-form">
+                <div style="position: relative; flex: 1;">
+                    <input type="text" id="food-input" placeholder="Enter food item" required>
+                    <div id="food-suggestions"></div>
+                </div>
+                <input type="number" id="quantity-input" placeholder="Quantity (g)" required>
+                <button type="submit">Add Food</button>
+            </form>
+            <div id="nutritional-info"></div>
+        </div>
+        <div id="food-list">
+            <h2>Food Items Consumed</h2>
+            <ul id="consumed-foods"></ul>
+        </div>
+        <div id="calorie-summary">
+            <h2>Daily Summary</h2>
+            <p>Total Calories: <span id="total-calories">0</span></p>
+            <p>Total Protein: <span id="total-protein">0</span>g</p>
+            <p>Total Carbs: <span id="total-carbs">0</span>g</p>
+            <p>Total Fat: <span id="total-fat">0</span>g</p>
+        </div>
+    </div>
+    <!-- Add this section in your HTML after the calorie-summary div and before the pie chart -->
+<div id="bmi-calculator" class="calculator-section">
+    <h2>BMI Calculator</h2>
+    <div class="calculator-form">
+        <div class="input-group">
+            <label for="height">Height:</label>
+            <div class="input-with-unit">
+                <input type="number" id="height" step="0.01" required>
+                <select id="height-unit">
+                    <option value="cm">cm</option>
+                    <option value="feet">feet</option>
+                </select>
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="weight">Weight:</label>
+            <div class="input-with-unit">
+                <input type="number" id="weight" step="0.1" required>
+                <select id="weight-unit">
+                    <option value="kg">kg</option>
+                    <option value="lbs">lbs</option>
+                </select>
+            </div>
+        </div>
+        <button id="calculate-bmi" class="calculate-btn">Calculate BMI</button>
+    </div>
+    <div class="bmi-result" id="bmi-result">
+        <div class="result-value">
+            <span>Your BMI: </span>
+            <span id="bmi-value">-</span>
+        </div>
+        <div class="result-category">
+            <span>Category: </span>
+            <span id="bmi-category">-</span>
+        </div>
+        <div class="bmi-chart">
+            <div class="chart-bar">
+                <div class="segment underweight" title="Underweight: < 18.5"></div>
+                <div class="segment normal" title="Normal: 18.5-24.9"></div>
+                <div class="segment overweight" title="Overweight: 25-29.9"></div>
+                <div class="segment obese" title="Obese: ≥ 30"></div>
+            </div>
+            <div id="bmi-marker" class="bmi-marker">▼</div>
+        </div>
+    </div>
+</div>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About us</h3>
+                 <p id="about">Introducing BiteCount,a web app that helps users track their daily calorie intake, and BMI (Body Mass Index). Users can log meals, track calorie intake, and set fitness goals. The app includes a BMI calculator to assess health status. Built with HTML, CSS, JavaScript Ideal for fitness enthusiasts and health-conscious individuals.  </p>
+            </div>
+             
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Bite Count. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
